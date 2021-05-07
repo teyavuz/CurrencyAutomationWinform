@@ -191,6 +191,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="VezneEkleForm.resx">
       <DependentUpon>VezneEkleForm.cs</DependentUpon>
@@ -233,6 +234,9 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\Başlıksız-1.png" />
+    <None Include="Resources\48819-5-exchange-png-file-hd.png" />
+    <None Include="Resources\9f00af501d2d324ac7f8ebb559fc25dd.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

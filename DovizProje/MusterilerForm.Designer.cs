@@ -36,6 +36,8 @@ namespace DovizProje
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -88,6 +90,16 @@ namespace DovizProje
             this.columnHeader5.Text = "Adres";
             this.columnHeader5.Width = 289;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::DovizProje.Properties.Resources._9f00af501d2d324ac7f8ebb559fc25dd;
+            this.pictureBox1.Location = new System.Drawing.Point(618, -12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(97, 95);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // MusterilerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -95,9 +107,11 @@ namespace DovizProje
             this.ClientSize = new System.Drawing.Size(718, 450);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "MusterilerForm";
             this.Text = "MusterilerForm";
             this.Load += new System.EventHandler(this.MusterilerForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -112,5 +126,6 @@ namespace DovizProje
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

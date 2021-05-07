@@ -87,5 +87,10 @@ namespace DovizProje
             Childform.MdiParent = this;
             Childform.Show();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

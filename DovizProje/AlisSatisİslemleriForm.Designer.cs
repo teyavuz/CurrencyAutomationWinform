@@ -61,6 +61,8 @@ namespace DovizProje
             this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lwMusteri
@@ -306,11 +308,22 @@ namespace DovizProje
             this.columnHeader16.Text = "Vezne";
             this.columnHeader16.Width = 85;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::DovizProje.Properties.Resources._48819_5_exchange_png_file_hd;
+            this.pictureBox1.Location = new System.Drawing.Point(838, 13);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(86, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
+            // 
             // AlisSatisİslemleriForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(952, 594);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lwAlisSatis);
             this.Controls.Add(this.txtMiktar);
             this.Controls.Add(this.lwEnvanter);
@@ -329,6 +342,7 @@ namespace DovizProje
             this.Name = "AlisSatisİslemleriForm";
             this.Text = "AlisSatisİslemleriForm";
             this.Load += new System.EventHandler(this.AlisSatisİslemleriForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -368,5 +382,6 @@ namespace DovizProje
         private System.Windows.Forms.ColumnHeader columnHeader15;
         private System.Windows.Forms.ColumnHeader columnHeader16;
         private System.Windows.Forms.ColumnHeader columnHeader17;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

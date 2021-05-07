@@ -62,6 +62,7 @@ namespace DovizProje
             this.menuStrip1.Size = new System.Drawing.Size(1264, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.Visible = false;
             // 
             // müşteriİşlemleriToolStripMenuItem
             // 
@@ -75,14 +76,14 @@ namespace DovizProje
             // yeniMüşteriToolStripMenuItem
             // 
             this.yeniMüşteriToolStripMenuItem.Name = "yeniMüşteriToolStripMenuItem";
-            this.yeniMüşteriToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.yeniMüşteriToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.yeniMüşteriToolStripMenuItem.Text = "Yeni Müşteri";
             this.yeniMüşteriToolStripMenuItem.Click += new System.EventHandler(this.yeniMüşteriToolStripMenuItem_Click);
             // 
             // müşterilerToolStripMenuItem
             // 
             this.müşterilerToolStripMenuItem.Name = "müşterilerToolStripMenuItem";
-            this.müşterilerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.müşterilerToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.müşterilerToolStripMenuItem.Text = "Müşteriler";
             this.müşterilerToolStripMenuItem.Click += new System.EventHandler(this.müşterilerToolStripMenuItem_Click);
             // 
@@ -136,14 +137,14 @@ namespace DovizProje
             // gelirGiderEkleToolStripMenuItem
             // 
             this.gelirGiderEkleToolStripMenuItem.Name = "gelirGiderEkleToolStripMenuItem";
-            this.gelirGiderEkleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gelirGiderEkleToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.gelirGiderEkleToolStripMenuItem.Text = "Gelir/Gider Ekle";
             this.gelirGiderEkleToolStripMenuItem.Click += new System.EventHandler(this.gelirGiderEkleToolStripMenuItem_Click);
             // 
             // gelirGiderTakibiToolStripMenuItem
             // 
             this.gelirGiderTakibiToolStripMenuItem.Name = "gelirGiderTakibiToolStripMenuItem";
-            this.gelirGiderTakibiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gelirGiderTakibiToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.gelirGiderTakibiToolStripMenuItem.Text = "Gelir/Gider Takibi";
             this.gelirGiderTakibiToolStripMenuItem.Click += new System.EventHandler(this.gelirGiderTakibiToolStripMenuItem_Click);
             // 
@@ -158,7 +159,7 @@ namespace DovizProje
             // vezneEkleToolStripMenuItem
             // 
             this.vezneEkleToolStripMenuItem.Name = "vezneEkleToolStripMenuItem";
-            this.vezneEkleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.vezneEkleToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.vezneEkleToolStripMenuItem.Text = "Vezne Ekle";
             this.vezneEkleToolStripMenuItem.Click += new System.EventHandler(this.vezneEkleToolStripMenuItem_Click);
             // 
@@ -173,7 +174,7 @@ namespace DovizProje
             // hakkımızdaToolStripMenuItem
             // 
             this.hakkımızdaToolStripMenuItem.Name = "hakkımızdaToolStripMenuItem";
-            this.hakkımızdaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hakkımızdaToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.hakkımızdaToolStripMenuItem.Text = "Hakkımızda";
             this.hakkımızdaToolStripMenuItem.Click += new System.EventHandler(this.hakkımızdaToolStripMenuItem_Click);
             // 
