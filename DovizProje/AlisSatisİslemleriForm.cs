@@ -85,6 +85,7 @@ namespace DovizProje
                 lw.SubItems.Add(item.Miktar.ToString());
                 lw.SubItems.Add(item.Veznelers.VezneAdi);
                 
+                
                 lwAlisSatis.Items.Add(lw);
 
             }
@@ -139,6 +140,7 @@ namespace DovizProje
             alis.DovizID = secilidovizint;
             alis.Miktar = Convert.ToDecimal(txtMiktar.Text);
             alis.VezneID = secilivezneint;
+            alis.İslemToplami = 0;
             db.AlisSatislars.Add(alis);
             db.SaveChanges();
             lwAlisSatis.Items.Clear();

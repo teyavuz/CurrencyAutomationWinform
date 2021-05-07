@@ -60,6 +60,7 @@ namespace DovizProje
             this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // lwMusteri
@@ -266,7 +267,8 @@ namespace DovizProje
             this.columnHeader13,
             this.columnHeader14,
             this.columnHeader15,
-            this.columnHeader16});
+            this.columnHeader16,
+            this.columnHeader17});
             this.lwAlisSatis.HideSelection = false;
             this.lwAlisSatis.Location = new System.Drawing.Point(345, 293);
             this.lwAlisSatis.Name = "lwAlisSatis";
@@ -365,5 +367,6 @@ namespace DovizProje
         private System.Windows.Forms.ColumnHeader columnHeader14;
         private System.Windows.Forms.ColumnHeader columnHeader15;
         private System.Windows.Forms.ColumnHeader columnHeader16;
+        private System.Windows.Forms.ColumnHeader columnHeader17;
     }
 }

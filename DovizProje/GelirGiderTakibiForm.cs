@@ -23,7 +23,7 @@ namespace DovizProje
             foreach (var item in db.Muhasebelers)
             {
                 ListViewItem lw = new ListViewItem();
-                lw.Text = item.DovizID.ToString();
+                lw.Text = item.MuhasebeID.ToString();
                 lw.SubItems.Add(item.GelirGiderTipleris.GelirGiderTipiAdi);
                 lw.SubItems.Add(item.DovizID.ToString());
                 lw.SubItems.Add(item.Miktar.ToString());

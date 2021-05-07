@@ -41,6 +41,7 @@ namespace DovizProje
                 lw.Text = item.DovizID.ToString();
                 lw.SubItems.Add(item.DovizAdi);
                 lw.SubItems.Add(item.DovizKuru.ToString());
+                lw.SubItems.Add("0");
                 listView1.Items.Add(lw);
             }
         }
