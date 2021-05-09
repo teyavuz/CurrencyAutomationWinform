@@ -313,7 +313,7 @@ namespace DovizProje
             this.pictureBox1.Image = global::DovizProje.Properties.Resources._48819_5_exchange_png_file_hd;
             this.pictureBox1.Location = new System.Drawing.Point(838, 13);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(86, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(86, 63);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;

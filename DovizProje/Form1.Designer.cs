@@ -75,14 +75,14 @@ namespace DovizProje
             // yeniMüşteriToolStripMenuItem
             // 
             this.yeniMüşteriToolStripMenuItem.Name = "yeniMüşteriToolStripMenuItem";
-            this.yeniMüşteriToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.yeniMüşteriToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.yeniMüşteriToolStripMenuItem.Text = "Yeni Müşteri";
             this.yeniMüşteriToolStripMenuItem.Click += new System.EventHandler(this.yeniMüşteriToolStripMenuItem_Click);
             // 
             // müşterilerToolStripMenuItem
             // 
             this.müşterilerToolStripMenuItem.Name = "müşterilerToolStripMenuItem";
-            this.müşterilerToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.müşterilerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.müşterilerToolStripMenuItem.Text = "Müşteriler";
             this.müşterilerToolStripMenuItem.Click += new System.EventHandler(this.müşterilerToolStripMenuItem_Click);
             // 
@@ -187,6 +187,7 @@ namespace DovizProje
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

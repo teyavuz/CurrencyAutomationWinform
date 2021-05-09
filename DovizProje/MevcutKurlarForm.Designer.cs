@@ -42,7 +42,7 @@ namespace DovizProje
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(474, 9);
+            this.label21.Location = new System.Drawing.Point(451, 9);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(34, 13);
             this.label21.TabIndex = 0;
@@ -57,6 +57,7 @@ namespace DovizProje
             this.label1.Size = new System.Drawing.Size(312, 54);
             this.label1.TabIndex = 2;
             this.label1.Text = "Mevcut Kurlar";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // listView1
             // 
